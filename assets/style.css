@@ -1,11 +1,12 @@
 body {
 	max-width: 1920px;
-	margin: auto;
+	margin: auto; 
 }
-* {
-	font-family: 'Inter';
-	font-style: normal;
+
+h1, h2,h3, h4, h5, h6, p, a {
+	font-family: 'Montserrat', sans-serif;
 }
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -18,8 +19,14 @@ body {
 	align-items: center;
 }
 
+.top-header a {
+	text-decoration: none;
+	color: #000;
+}
+
 .top-header .name {
 	font-size: 26px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .nav ul {
@@ -35,9 +42,10 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
-}
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
 
+}
 .social-link img {
 	width: 20px;
 }
@@ -106,7 +114,9 @@ body {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -220,6 +230,7 @@ form {
 	flex-direction: column;
 	width: 70%;
 	align-items: flex-start;
+	font-family: 'Montserrat', sans-serif;
 }
 
 form input {
