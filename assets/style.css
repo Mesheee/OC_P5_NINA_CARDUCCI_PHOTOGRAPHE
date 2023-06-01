@@ -163,6 +163,7 @@ h1, h2,h3, h4, h5, h6, p, a {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2em;
 
 }
 .quote__author {
@@ -257,7 +258,7 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #75665E;
+	background-color: #E4C7B7;
 	padding: .5em 1em
 }
 
